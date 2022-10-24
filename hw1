@@ -1,0 +1,21 @@
+import java.util.*;
+class hw1
+{
+	public static void PrintAvg(int a,int b,int c)
+	{
+		int avg=((a+b+c)/3);
+		System.out.println(avg);
+		return;
+	}
+	
+	public static void main(String args[])
+			{
+				System.out.println("Enter three number");
+				Scanner sc=new Scanner(System.in);
+				int a=sc.nextInt();
+				int b=sc.nextInt();
+				int c=sc.nextInt();
+				System.out.println("Average of three number is");
+				PrintAvg(a,b,c);
+			}
+}
