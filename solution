@@ -1,0 +1,19 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Solution{
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        Scanner sc=new Scanner(System.in);
+        double x=sc.nextDouble();
+        double y=sc.nextDouble();
+        if((x+0.5)<=y && (int)x%5==0)
+        {
+            System.out.print(y-(x+0.5));
+        }
+        else
+        {
+            System.out.print(y);
+        }
+    }
