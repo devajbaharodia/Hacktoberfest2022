@@ -1,0 +1,29 @@
+import java.util.*;
+class robo
+{
+	public static void main(String args[])
+	{
+		System.out.println("Enter a number"); 
+		Scanner sc=new Scanner(System.in);
+		int x=sc.nextInt();
+		
+		if(x==1)
+		{
+			System.out.println("Namste");
+		}
+		else if(x==2)
+		{
+			System.out.println("Hello");
+		}
+		else if(x==3)
+		{
+			System.out.println("Bonjour");
+		}
+		else 
+		{
+			System.out.println("Invalid");
+		}
+	}
+}	
+		
+
